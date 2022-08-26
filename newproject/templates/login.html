@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="theme-color" content="#33b5e5">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+
+
+<!--    <link rel='stylesheet' id='roboto-subset.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />-->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+
+
+    <link rel='stylesheet' id='roboto-subset.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />
+
+
+    <meta charset="utf-8">
+    <title>Login</title>
+
+
+
+    <link rel="shortcut icon" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/favicon.ico" />
+
+
+    <script data-cfasync="false">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W7MBMN');
+    </script>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "MDBootstrap",
+                "item": "https://mdbootstrap.com/",
+                "image": "https://mdbcdn.b-cdn.net/img/Marketing/mdb-press-pack/mdb-main.webp"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Standard",
+                "item": "https://mdbootstrap.com/docs/standard/",
+                "image": "https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/standard/about/assets/mdb5-about.webp"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Registration form",
+                "item": "https://mdbootstrap.com/docs/standard/extended/registration/",
+                "image": "https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png"
+            }]
+        }
+    </script>
+
+    <style>
+        #navbarNotification::after {
+            content: none !important;
+        }
+
+
+        #main-navbar .badge {
+            position: absolute;
+            font-size: .6rem;
+            margin-top: -.1rem;
+            margin-left: -.5rem;
+            padding: .2em .45em;
+        }
+
+
+        #main-navbar .nav-link {
+            color: rgba(0, 0, 0, .55) !important;
+            font-size: 1rem !important;
+            font-weight: 400;
+        }
+
+        #main-navbar .nav-link :hover {
+            color: rgb(76, 76, 76);
+        }
+
+
+
+        [aria-labelledby=new-mdb-technologies-dropdown] li {
+            background-color: rgb(255, 255, 255) !important;
+        }
+
+        [aria-labelledby=new-mdb-technologies-dropdown] li :hover {
+            background-color: #EEEEEE !important;
+            box-shadow: none !important;
+        }
+
+        [aria-labelledby=userDropdown] a {
+            background-color: rgb(255, 255, 255) !important;
+            box-shadow: none !important;
+        }
+
+        [aria-labelledby=userDropdown] a:hover {
+            background-color: #EEEEEE !important;
+        }
+
+        #navbarNotificationContent a {
+            background-color: rgb(255, 255, 255) !important;
+            box-shadow: none !important;
+        }
+
+        #navbarNotificationContent a:hover {
+            background-color: #EEEEEE !important;
+        }
+
+        .dropdown-item-pseudo-focus {
+            background-color: rgba(0, 0, 0, 0.05) !important;
+            box-shadow: none !important;
+        }
+    </style>
+    <style>
+        .docs-pills {
+            border-radius: 0.5rem;
+        }
+
+        .docs-pills pre[class*="language-"] {
+            border-bottom-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+        }
+
+        .docs-pills .btn-copy-code,
+        .docs-tab-content .export-to-snippet {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            box-shadow: none !important;
+            color: #616161 !important;
+            background-color: transparent !important;
+            padding: 6px 15px !important;
+        }
+    </style>
+    <style>
+        @media (max-width: 576px) {
+            [id^=dpl-], [class^=dpl-], .mobile-hidden {
+                display: none!important;
+            }
+        }
+    </style>
+     <style>
+        #navbarNotification::after {
+            content: none !important;
+        }
+
+
+        #main-navbar .badge {
+            position: absolute;
+            font-size: .6rem;
+            margin-top: -.1rem;
+            margin-left: -.5rem;
+            padding: .2em .45em;
+        }
+
+
+        #main-navbar .nav-link {
+            color: rgba(0, 0, 0, .55) !important;
+            font-size: 1rem !important;
+            font-weight: 400;
+        }
+
+        #main-navbar .nav-link :hover {
+            color: rgb(76, 76, 76);
+        }
+
+
+
+        [aria-labelledby=new-mdb-technologies-dropdown] li {
+            background-color: rgb(255, 255, 255) !important;
+        }
+
+        [aria-labelledby=new-mdb-technologies-dropdown] li :hover {
+            background-color: #EEEEEE !important;
+            box-shadow: none !important;
+        }
+
+        [aria-labelledby=userDropdown] a {
+            background-color: rgb(255, 255, 255) !important;
+            box-shadow: none !important;
+        }
+
+        [aria-labelledby=userDropdown] a:hover {
+            background-color: #EEEEEE !important;
+        }
+
+        #navbarNotificationContent a {
+            background-color: rgb(255, 255, 255) !important;
+            box-shadow: none !important;
+        }
+
+        #navbarNotificationContent a:hover {
+            background-color: #EEEEEE !important;
+        }
+
+        .dropdown-item-pseudo-focus {
+            background-color: rgba(0, 0, 0, 0.05) !important;
+            box-shadow: none !important;
+        }
+    </style>
+    <style>
+        .docs-pills {
+            border-radius: 0.5rem;
+        }
+
+        .docs-pills pre[class*="language-"] {
+            border-bottom-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+        }
+
+        .docs-pills .btn-copy-code,
+        .docs-tab-content .export-to-snippet {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            box-shadow: none !important;
+            color: #616161 !important;
+            background-color: transparent !important;
+            padding: 6px 15px !important;
+        }
+    </style>
+    <style>
+        @media (max-width: 576px) {
+            [id^=dpl-], [class^=dpl-], .mobile-hidden {
+                display: none!important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="w-100 p-4 d-flex justify-content-center pb-4" >
+<form action="login" method="post" style="width: 22rem;">
+    {% csrf_token %}
+  <!-- username input -->
+  <div class="form-outline mb-4">
+    <input type="text" name="username" id="form2Example1" class="form-control" />
+    <label class="form-label"  for="form2Example1">Username</label>
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" name="password" id="form2Example2" class="form-control" />
+    <label class="form-label" for="form2Example2">Password</label>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+<!--  <div class="row mb-4">-->
+<!--    <div class="col d-flex justify-content-center">-->
+<!--      &lt;!&ndash; Checkbox &ndash;&gt;-->
+<!--      <div class="form-check">-->
+<!--        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />-->
+<!--        <label class="form-check-label" for="form2Example31"> Remember me </label>-->
+<!--      </div>-->
+<!--    </div>-->
+
+
+<!--  </div>-->
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <p>Not a member? <a href="register">Register</a></p>
+<!--    <p>or sign up with:</p>-->
+<!--    <button type="button" class="btn btn-link btn-floating mx-1">-->
+<!--      <i class="fab fa-facebook-f"></i>-->
+<!--    </button>-->
+
+<!--    <button type="button" class="btn btn-link btn-floating mx-1">-->
+<!--      <i class="fab fa-google"></i>-->
+<!--    </button>-->
+
+<!--    <button type="button" class="btn btn-link btn-floating mx-1">-->
+<!--      <i class="fab fa-twitter"></i>-->
+<!--    </button>-->
+
+<!--    <button type="button" class="btn btn-link btn-floating mx-1">-->
+<!--      <i class="fab fa-github"></i>-->
+<!--    </button>-->
+  </div>
+</form>
+<p class = text-warning>
+    {% for msg in messages %}
+                     {{msg}}
+    {% endfor %}
+</p>
+</section>
+
+</body>
+</html>
